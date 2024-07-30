@@ -25,7 +25,7 @@ Development follows a rigorous process, from local setup to live deployment, ens
 Our custom theme is built from a starter theme and is designed to be reusable and adaptable for future needs. For more information on developing and customizing the theme, refer to [theme.md](theme.md).
 
 ## Site Maintenance
-For guidelines on how to manage and update the website, refer to [site.md](site.md). This includes adding new content, managing posts, and utilizing specialized plugins.
+For guidelines on how to manage and update the website, refer to [site.md](site.md). This includes adding new content, managing posts, and utilizing specialized plugins. 
 
 ## Contributing
 Interested in contributing to the Baizonn Learning Center website? Please read through our contribution guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) for more details on how to propose improvements or report issues.
