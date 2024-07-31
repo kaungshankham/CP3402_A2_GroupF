@@ -24,17 +24,17 @@ This document is intended to assist site maintainers in managing and updating th
 3. Input the title and content.
 4. Preview the page using the ‘Preview’ button.
 5. Click ‘Publish’ to make the page available on the site.
-
+ 
 ## Managing Categories
 Categories help organize the posts and make them easily navigable. To manage categories:
 1. Navigate to ‘Posts’ > ‘Categories’.
-2. Here you can add new categories or edit existing ones.
-
+2. Here you can add new categories or edit existing ones. 
+ 
 ## Using Plugins
 
 ### Event Calendar Plugin
 The site uses the ‘Event Calendar’ plugin to manage upcoming events. This is essential for highlighting special sessions, open houses, and other significant dates.
-
+ 
 #### Managing Events
 1. To add an event, navigate to ‘Events’ > ‘Add New’ in the WordPress dashboard.
 2. Fill in the event details, including date, time, and location.
