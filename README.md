@@ -14,10 +14,10 @@ This repository houses the code and resources for the Baizonn Learning Center we
 - **Web Server:** Local development environment like XAMPP or Docker
 - **Version Control:** Git with repository hosted on [GitHub](https://github.com/)
 - **Hosting:** Host Stinger for staging and production environments
-
+   
 ## Project Management
 We utilize [Trello](https://trello.com) for task management, ensuring a clear and organized workflow. Each task is assigned to team members based on their expertise, and progress is tracked from 'Backlog' to 'Done'.
-
+   
 ## Development and Deployment
 Development follows a rigorous process, from local setup to live deployment, ensuring quality and performance. For detailed steps on our development and deployment workflow, please see [deployment.md](deployment.md).
 
