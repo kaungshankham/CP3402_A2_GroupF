@@ -1,10 +1,10 @@
 # Development Guidelines
-
+   
 ## Introduction
 This document serves as a comprehensive guide for the development of the Baizonn Learning Center website. It details the tools, roles, and processes our team has agreed upon to ensure a smooth workflow from development to deployment.
-
+   
 ## Tools and Setup
-
+   
 ### Visual Studio Code
 - **Purpose**: Used for writing and editing HTML, PHP, and other web technologies.
 - **Setup**:
