@@ -27,7 +27,7 @@ The theme is organized into several key directories and files. Here’s an overv
 - **Typography**:
   - **Headings**: Arial, sans-serif - Bold and large for clarity.
   - **Body Text**: Helvetica, sans-serif - Standard weight and size for comfortable reading.
-
+   
 - **Layout**:
   - The theme uses a grid-based layout to maintain structure and balance across the site.
   - Content is strategically placed to capture user attention and guide them through the site effectively.
