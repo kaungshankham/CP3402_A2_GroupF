@@ -10,7 +10,7 @@ This repository houses the code and resources for the Baizonn Learning Center we
 - **Engage Target Audience:** Deliver content that appeals to both parents and students, ensuring it addresses their needs and questions.
 
 ## System Requirements
-- **Code Editor:** [Visual Studio Code](https://code.visualstudio.com/)
+- **Code Editor:** Visual Studio Code
 - **Web Server:** Local development environment like XAMPP or Docker
 - **Version Control:** Git with repository hosted on [GitHub](https://github.com/)
 - **Hosting:** Host Stinger for staging and production environments
@@ -25,17 +25,14 @@ Development follows a rigorous process, from local setup to live deployment, ens
 Our custom theme is built from a starter theme and is designed to be reusable and adaptable for future needs. For more information on developing and customizing the theme, refer to [theme.md](theme.md).
 
 ## Site Maintenance
-For guidelines on how to manage and update the website, refer to [site.md](site.md). This includes adding new content, managing posts, and utilizing specialized plugins. 
-
-## Contributing
-Interested in contributing to the Baizonn Learning Center website? Please read through our contribution guidelines in [CONTRIBUTING.md](CONTRIBUTING.md) for more details on how to propose improvements or report issues.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+For guidelines on how to manage and update the website, refer to [site.md](site.md). This includes adding new content, managing posts, and utilizing specialized plugins.
 
 ## Acknowledgments
 Special thanks to the James Cook University faculty and all project participants who have provided feedback and support throughout the development process.
 
-## Contact
-For more information, please contact us at [BaizonnLearning@gmail.com](mailto:BaizonnLearning@gmail.com) or phone Lum at +65 62811816.
+## Team member contact 
+1. [Nang Kaung Shan Kham (14567218)] (https://www.linkedin.com/in/nang-kaung-shan-kham-88095723b)
+2. [Kyaw Zaww Linn (14430237)] (https://www.linkedin.com/in/kyaw-zaww-linn-5b935a298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+3. [Nyan Lin Htut (14419795)] (http://www.linkedin.com/in/nyan-lin-htut-047605256)
+
 
