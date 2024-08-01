@@ -1,0 +1,52 @@
+/*
+Theme Name: Baizonn Learning Center
+Description: Standard Theme for Baizonn Learning Center
+Author: Nang Kaung Shan Kham, Kyaw Zaww Linn, Nyan Lin Htut
+*/
+
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Scrollbar Styling */
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #285CB4;
+    border-radius: 10px;
+}
+
+/* Navbar Styles */
+#navbar {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px 5%;
+}
+
+#logo img {
+    width: 180px;
+}
+
+.nav-item .nav-link {
+    color: black;
+    font-size: 18px;
+    transition: color 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    color: #285CB4;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #ececec;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+}
