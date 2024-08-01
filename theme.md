@@ -1,48 +1,85 @@
-# Theme Documentation for Baizonn Learning Center
+# Baizonn Learning Center Theme Development Guide
 
-## Overview
-This document serves as a guide for the custom WordPress theme developed for the Baizonn Learning Center website. It details the features, file structure, design decisions, and customization guidelines specific to this theme.
+## Introduction
+
+This guide is designed to assist developers in continuing the development and maintenance of the Baizonn Learning Center WordPress theme. It includes relevant information about the theme's features, important files, design decisions, and customization options specific to this theme.
 
 ## Theme Features
-- **Responsive Design**: Ensures the website is accessible and performs well on devices of all sizes.
-- **Custom Widgets**: Includes widgets designed specifically for educational content, like upcoming events and featured programs.
-- **SEO Optimized**: The theme is built with SEO best practices to help improve the visibility of the site on search engines.
 
-## File Structure
-The theme is organized into several key directories and files. Here’s an overview of the most important files and their purposes:
+### Key Features
+- **Responsive Design**: Ensures that the site is accessible and visually appealing on all devices, including desktops, tablets, and smartphones.
+- **Customizable Header and Footer**: Through WordPress Customizer, users can easily modify the header and footer sections.
+- **Enhanced Navigation**: Includes a sticky header feature for improved user navigation as they scroll through the site.
+- **Dynamic Content Display**: Templates like `index.php` and `single.php` are designed to dynamically display posts and articles.
+- **Advanced Search Functionality**: Custom `search.php` template to enhance search result displays.
+- **Event Management**: Integration with The Events Calendar plugin for managing and displaying events.
 
-- **`style.css`**: Contains the main stylesheet for the theme. This file includes the header information that WordPress uses to manage the theme.
-- **`functions.php`**: Used to define theme-specific functions and to enqueue styles and scripts.
-- **`index.php`**: The main template file that serves as the fallback for any queries that don't have a specific template file.
-- **`header.php`** and **`footer.php`**: Define the global header and footer of the theme.
-- **`page.php`**, **`single.php`**: Template files for displaying single pages and single posts.
-- **`archive.php`**: Manages the display of archive-type pages including categories and tags.
+### Plugins Used
+- **Smart Slider 3**: For creating responsive sliders.
+- **WPForms**: For creating and managing forms.
+- **The Events Calendar**: For managing and displaying events on the site.
+
+## Important Files
+
+### `header.php`
+- Contains the header section and primary navigation menu.
+- Integrates with WordPress Customizer for easy modifications.
+
+### `footer.php`
+- Contains the footer section, which includes widget areas for dynamic content.
+
+### `functions.php`
+- Handles theme setup, script and style enqueuing, and custom functionality.
+- Registers navigation menus, widget areas, and theme support features.
+
+### `index.php`
+- The main template file for displaying a list of recent posts or articles.
+
+### `search.php`
+- Custom template for displaying search results.
+
+### `single.php`
+- Template for displaying individual posts with detailed metadata and comments.
+
+### `404.php`
+- Template for displaying a custom 404 error page.
+
+### `archive.php`
+- Template for displaying archive pages based on date, category, or tag.
+
+### `front-page.php`
+- Custom front-page template for the main landing page.
+
+### `style.css`
+- Main stylesheet containing base styles, responsive design, and custom styles for various theme components.
 
 ## Design Decisions
-- **Color Scheme**:
-  - Primary Color: `#0056b3` (Blue) - Used for headers, important buttons, and links.
-  - Secondary Color: `#ffffff` (White) - Used for backgrounds and text areas to ensure readability.
-  - Accent Color: `#f2f2f2` (Light Grey) - Used for footer backgrounds and less important elements.
 
-- **Typography**:
-  - **Headings**: Arial, sans-serif - Bold and large for clarity.
-  - **Body Text**: Helvetica, sans-serif - Standard weight and size for comfortable reading.
-   
-- **Layout**:
-  - The theme uses a grid-based layout to maintain structure and balance across the site.
-  - Content is strategically placed to capture user attention and guide them through the site effectively.
+### Colors
+The Baizonn Learning Center theme primarily uses the following colors:
+- **Primary Color**: `#285CB4` (Blue)
+- **Secondary Color**: `#04a96a` (Green)
+- **Accent Color**: `#0fbb87` (Light Green)
 
-## Customizing the Theme
-To customize the theme, you should follow these steps:
+### Typography
+- **Font Family**: 'Josefin Sans', sans-serif.
 
-1. **Create a Child Theme**: To ensure updates do not overwrite your customizations, create a child theme based on this theme.
-2. **Modify CSS**: Make stylistic changes by editing the `style.css` of the child theme.
-3. **Edit PHP Files**: To change or extend the functionality, edit the PHP files in the child theme. Always ensure that changes adhere to WordPress coding standards.
+### Layout and Styling
+- **Responsive Design**: Utilizes CSS media queries to ensure a seamless experience across different devices.
+- **Custom Scrollbars**: Styled to match the theme’s color scheme for a consistent user interface.
 
-## Important Notes
-- Do not directly edit the main theme files; instead, use a child theme to make changes.
-- Always backup the site before making significant changes.
-- Test changes on a staging environment before applying them to the live site.
+## Customization
 
-## Support
-For further assistance or more detailed information about specific features or issues, please refer to the online documentation or contact the theme development team at [devteam@example.com](mailto:devteam@example.com).
+### Modifying Header and Footer
+- Use the WordPress Customizer to update header and footer elements via `Appearance > Customize`.
+- Edit `header.php` and `footer.php` for more advanced customization.
+
+### Updating Styles
+- Modify `style.css` to change the appearance of the site. Use the primary, secondary, and accent colors consistently to maintain design coherence.
+
+### Adding Custom Functionality
+- Use `functions.php` to add custom functionality or modify existing features. Ensure any new functions are well-documented for future developers.
+
+## Conclusion
+
+This guide provides the necessary information to continue developing and maintaining the Baizonn Learning Center WordPress theme. By following the outlined structure and customization options, developers can ensure the site remains functional, visually appealing, and up-to-date with the latest features and content. For advanced customizations or technical issues, consulting with a senior developer or WordPress expert is recommended.
