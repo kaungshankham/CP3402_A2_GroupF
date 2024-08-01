@@ -35,7 +35,7 @@ This document outlines the development and deployment workflow for the Baizonn L
    - Prepare to rollback if a critical issue arises post-deployment.
 
 ## Project Management
-- Use tools like Jira, Trello, or Asana to manage tasks and milestones.
+- Use tools like Trello to manage tasks and milestones.
 - Hold regular meetings to discuss progress and address any issues.
 
-Remember, do not include sensitive information such as passwords or API keys in your documentation.
+
