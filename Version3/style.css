@@ -1,0 +1,475 @@
+/*
+Theme Name: Baizonn Learning Center
+Description: Theme for Baizonn Learning Center
+Author: Nang Kaung Shan Kham, Kyaw Zaww Linn, Nyan Lin Htut
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #285CB4;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* Navbar Start */
+#navbar{
+    background: transparent;
+    padding: 0px 7% 0px;
+}
+#logo img{
+    width: 190px;
+    margin-top: 1px;
+}
+
+.nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    color: #285CB4;
+}
+/* Navbar End */
+
+/* Banner Start */
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle; border-radius: 10px;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1400px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+@keyframes fade {
+  from {opacity: .8}
+  to {opacity: 1}
+}
+
+/* Banner End */
+
+/* Home Section Start */
+.home{
+    width: 100%;
+    height: 100vh;
+    padding: 5px 11% 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+.home .img{
+    flex: 1 1 300px;
+}
+.home .img img{
+    width: 100%;
+    margin-left: 60px;
+    border-radius: 28%;
+}
+.home-content{
+    flex: 1 1 400px;
+    margin-top: 30px;
+}
+.home-content h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+.home-content h3 span{
+    color: #04a96a;
+}
+#home-btn{
+    padding: 10px;
+    text-decoration: none;
+    background: #0fbb87;
+    color: white;
+    border-radius: 5px;
+    font-size: 26px;
+}
+@media screen and (max-width:873px){
+    .home .img img{
+        margin-left: 0px;
+    }
+}
+/* Home Section End */
+
+/* Top Section Start */
+.top-section{
+    padding: 10px 8% 10px;
+    margin-top: 1em;
+}
+.card-body h1{
+    color: #D83731;
+}
+.top-section #card1 img{
+    width:45%;
+}
+.top-section #card3 img{
+    width:45%;
+}
+.top-section h5{
+    color: #E5BA3F;
+    text-align: center;
+}
+.top-section h3{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.top-section h3 span{
+    color: #0fc777;
+    font-size: 32px;
+}
+.top-section .row{
+    margin-top: 50px;
+    align-items: center;
+}
+.top-section .row .card{
+    border: none;
+}
+.top-section .row .card img{
+    width: 200px;
+    margin: auto;
+}
+.top-section .card-body{
+
+    text-align: center;
+}
+.top-section .card-body h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+/* Top Section End */
+
+/* Our Menu Start */
+.menu{
+    padding: 5px 8% 5px;
+    margin-top: 20px;
+}
+.menu h5{
+    color: #E5BA3F;
+    text-align: center;
+}
+.menu h3{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+.menu h3 span{
+    color: #0ab269;
+    font-size: 32px;
+}
+.menu .row{
+    margin-top: 50px;
+    align-items: center;
+}
+.menu .row .card{
+    border: none;
+}
+.menu .row .card img{
+    width: 100px;
+    margin: auto;
+}
+.menu .card-body{
+    text-align: center;
+}
+.menu .card-body h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.menu p{
+    font-size: 28px;
+}
+
+/* Our Menu End */
+
+/* Order Section Start */
+.order{
+    padding: 10px 12% 20px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.heading span{
+    color: #10bb63;
+}
+#order p{
+    font-size: 20px;
+    text-align: center;
+    color: #D83731;
+}
+.order textarea{
+    resize: none;
+}
+.order-btn {
+  padding: 12px 24px;
+  background: transparent;
+  border: 2px solid #15b771;
+  border-radius: 5px;
+  color: #0fc869;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 22px;
+  margin: 1em auto;
+  display: block;
+}
+.order-btn:hover {
+  background: #285CB4;
+  color: white;
+  border: 2px solid white;
+}
+/* Order Section End */
+
+/* Section Gallary Start */
+.gallary{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.gallary .card{
+    border-radius: 10px;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+.main-txt h1{
+    color: #0eb165;
+    text-align: center;
+}
+/* Section Gallary End */
+
+/* Admission Section Start */
+.admissions {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.admissions-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admissions-text {
+  color: #1fbe6c;
+}
+
+.admissions #admissionscontent {
+  color: black;
+  font-size: 22px;
+}
+
+.admissions p{
+  text-align: center;
+  color: #D83731;
+  font-size: 24px;
+}
+
+.check-btn {
+  padding: 12px 24px;
+  background: transparent;
+  border: 2px solid #0aac66;
+  border-radius: 5px;
+  color: #28b46e;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 22px;
+  margin: 1em auto;
+  display: block;
+}
+
+.check-btn:hover {
+  background: #0cb753;
+  color: white;
+  border: 2px solid white;
+}
+/* Admission Section End */
+
+/* YouTube Video Start */
+.youtube {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.youtube-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-text {
+    color: #11bb4c;
+    margin-right: 10px;
+}
+#youtubevideo{
+    margin-top: 1em;
+}
+/* YouTube Video End */
+
+/* Review Section Start */
+.review {
+    padding: 10px 10% 10px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.review h2 {
+    font-weight: 550;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.review p {
+    color: #D83731;
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+}
+.review .row .card{
+    border: none;
+}
+.review h2 span {
+    color: #15b944;
+}
+.review .row .card img{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+@media screen and (max-width: 636px) {
+    .review h3 {
+        margin-top: 10px;
+  }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4,
+.col-md-8 {
+    flex: 1;
+}
+/* Review Section End */
+
+/* Section Gallary Start */
+.lastyear{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.lastyear .card{
+    border-radius: 10px;
+}
+.lastyear .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.lastyear .card img:hover{
+    transform: scale(1.1);
+}
+.lastyear h1 {
+    text-align: center;
+}
+.lastyear h1 span{
+    color: #11aa66;
+}
+/* Section Gallary End */
+
+/*Google Maps Start*/
+#googleMap {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+iframemap {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+/*Google Maps End*/
+
+/* Footer Start */
+#footer{
+    background-color: rgb(239, 239, 239);
+}
+#footer p{
+    font-size: 16px;
+}
+#footer .f-content{
+    text-align: center;
+    line-height: 1;
+}
+.f-logo img{
+    width: 250px;
+    cursor: pointer;
+}
+.f-content i{
+    color: black;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.f-content i:hover{
+    background: #0caf66;
+    color: white;
+    border-radius: 5px;
+}
+.c-content{
+    text-align: center;
+}
+.c-content span a{
+    text-decoration: none;
+    color: #09ab4f;
+
+}
+/* Footer End */
