@@ -1,62 +1,115 @@
-# Site Management Guide for Baizonn Learning Center
+# Baizonn Learning Center Site Management Guide
 
 ## Introduction
-This document is intended to assist site maintainers in managing and updating the Baizonn Learning Center website. It provides specific instructions on adding and organizing content within the WordPress platform, utilizing the custom features and plugins installed on the site.
+
+This guide is intended for maintaining and updating the Baizonn Learning Center website. It assumes familiarity with WordPress but provides specific instructions related to this site's organization and functionality.
 
 ## Adding New Content
 
-### Posts vs. Pages
-- **Posts**: Use posts for dynamic content such as news updates, blog entries, and announcements. Posts are categorized and can be tagged which makes them ideal for content that is part of a series or related to specific topics.
-- **Pages**: Use pages for static content that does not change frequently. This includes information such as "About Us," "Contact Information," and "Program Descriptions."
+### Adding a New Post
 
-### How to Add a New Post
-1. Navigate to the Dashboard.
-2. Click on ‘Posts’ > ‘Add New’.
-3. Enter the title and content in the respective fields.
-4. Select the appropriate category from the right sidebar. If a new category is needed, you can add it by clicking ‘+ Add New Category’.
-5. Tag the post with relevant keywords (optional).
-6. Preview the post by clicking ‘Preview’.
-7. Once satisfied, click ‘Publish’ to make the post live.
+1. **Navigate to Posts**:
+   - Go to the WordPress dashboard.
+   - Click on `Posts > Add New`.
 
-### How to Add a New Page
-1. Go to the Dashboard.
-2. Click on ‘Pages’ > ‘Add New’.
-3. Input the title and content.
-4. Preview the page using the ‘Preview’ button.
-5. Click ‘Publish’ to make the page available on the site.
- 
-## Managing Categories
-Categories help organize the posts and make them easily navigable. To manage categories:
-1. Navigate to ‘Posts’ > ‘Categories’.
-2. Here you can add new categories or edit existing ones. 
- 
-## Using Plugins
+2. **Create and Categorize Your Post**:
+   - Enter your post title and content.
+   - Select the appropriate category from the right-hand sidebar. Common categories might include News, Events, or Announcements.
+   - Add relevant tags to help users find related content.
 
-### Event Calendar Plugin
-The site uses the ‘Event Calendar’ plugin to manage upcoming events. This is essential for highlighting special sessions, open houses, and other significant dates.
- 
-#### Managing Events
-1. To add an event, navigate to ‘Events’ > ‘Add New’ in the WordPress dashboard.
-2. Fill in the event details, including date, time, and location.
-3. Events can be categorized similarly to posts to help organize them based on type or audience.
-4. Publish the event to make it visible on the site’s calendar.
+3. **Add Media**:
+   - Use the `Add Media` button to include images, videos, or other media.
+   - Ensure that you add a featured image, which will be displayed prominently on the site.
 
-## Uploading Media
-To add images or videos:
-1. Go to ‘Media’ > ‘Add New’.
-2. Drag and drop files or use the file uploader.
-3. Once uploaded, media can be inserted into posts, pages, or events.
+4. **Publish**:
+   - Once you are satisfied with your post, click the `Publish` button to make it live on the site.
 
-## Updating Site Menus
-Menus might need to be updated to include new pages or categories:
-1. Navigate to ‘Appearance’ > ‘Menus’.
-2. Drag and drop the items you wish to add into the desired menu.
-3. Click ‘Save Menu’ to apply the changes.
+### Adding a New Page
 
-## Regular Maintenance
-- **Updates**: Regularly check for updates to WordPress, themes, and plugins.
-- **Backups**: Ensure that regular backups of the website are taken.
+1. **Navigate to Pages**:
+   - Go to the WordPress dashboard.
+   - Click on `Pages > Add New`.
 
-## Support
-For additional support or specific queries, please contact the development team or refer to the detailed WordPress guides provided during the initial training.
+2. **Create Your Page**:
+   - Enter your page title and content.
+   - Use the page editor to format text, add images, and embed other media.
 
+3. **Select a Template**:
+   - From the right-hand sidebar, you can choose a page template if the theme provides different layouts.
+
+4. **Publish**:
+   - Click the `Publish` button to make your new page live on the site.
+
+## Managing the Event Calendar
+
+### Using Smart Slider 3
+
+1. **Accessing Smart Slider 3**:
+   - Go to the WordPress dashboard.
+   - Click on `Smart Slider` in the left-hand menu.
+
+2. **Creating a New Slider**:
+   - Click on `New Project` to create a new slider.
+   - Choose a template or start from scratch.
+   - Add slides, including images, text, and buttons as needed.
+
+3. **Embedding Sliders**:
+   - Once created, you can embed sliders into pages or posts using the provided shortcode or the Smart Slider block in the page editor.
+
+### Using WPForms
+
+1. **Functionality**:
+   - WPForms is a drag-and-drop form builder that allows you to create contact forms, survey forms, registration forms, and more.
+
+2. **Usage**:
+   - To create a new form, navigate to `WPForms > Add New`.
+   - Select a template or start from scratch, then use the drag-and-drop builder to create your form.
+   - Embed forms into posts, pages, or widgets using the provided shortcode or WPForms block.
+
+### Using The Events Calendar
+
+1. **Functionality**:
+   - The Events Calendar is a comprehensive event management plugin that allows you to create and manage events with ease.
+
+2. **Usage**:
+   - Navigate to `Events > Add New` to create a new event.
+   - Enter event details such as title, date, time, location, and description.
+   - Use categories and tags to organize events.
+   - Display the calendar on your site using the shortcode `[tribe_events]` or the calendar widget.
+
+## Customizing the Site Appearance
+
+### Colors
+
+The Baizonn Learning Center website primarily uses the following colors:
+- **Primary Color**: `#285CB4` (Blue)
+- **Secondary Color**: `#04a96a` (Green)
+- **Accent Color**: `#0fbb87` (Light Green)
+
+### Changing Colors
+
+1. **Navigate to Customizer**:
+   - Go to the WordPress dashboard.
+   - Click on `Appearance > Customize`.
+
+2. **Modify Colors**:
+   - In the Customizer, look for color settings under `Colors` or `Theme Options`.
+   - Update the primary, secondary, and accent colors as needed.
+   - Preview changes in real-time and click `Publish` to apply them.
+
+### Updating the Menu
+
+1. **Navigate to Menus**:
+   - Go to the WordPress dashboard.
+   - Click on `Appearance > Menus`.
+
+2. **Edit Menu Items**:
+   - Add, remove, or rearrange menu items.
+   - Ensure the correct menu is selected for the `Primary` and `Footer` locations.
+
+3. **Save Changes**:
+   - Click the `Save Menu` button to apply your changes.
+
+## Conclusion
+
+This guide provides a comprehensive overview of managing and updating the Baizonn Learning Center website. By following these instructions, you can ensure that the site remains current, engaging, and reflective of the institution's dynamic educational environment. For any advanced customizations or technical issues, consider consulting with a WordPress developer.
