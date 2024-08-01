@@ -1,68 +1,41 @@
-# Development Guidelines
-   
+# Deployment Guide
+
 ## Introduction
-This document serves as a comprehensive guide for the development of the Baizonn Learning Center website. It details the tools, roles, and processes our team has agreed upon to ensure a smooth workflow from development to deployment.
-   
-## Tools and Setup
-   
-### Visual Studio Code
-- **Purpose**: Used for writing and editing HTML, PHP, and other web technologies.
-- **Setup**:
-  1. Download and install Visual Studio Code from [here](https://code.visualstudio.com/).
-  2. Clone the repository: `git clone https://github.com/your-username/baizonnlearningcenter.git`.
-  3. Open the project folder in Visual Studio Code to start development.
+This document outlines the development and deployment workflow for the Baizonn Learning Center WordPress theme. Follow these guidelines to develop theme updates locally, then test and deploy them to staging and live environments.
 
-### Trello
-- **Role**: Trello is our project management tool to track all tasks, from development to deployment.
-- **Usage**: 
-  - Tasks are categorized into lists: To Do, In Progress, Review, and Done.
-  - Each task card details the requirements and acceptance criteria.
-  - Team members are assigned to cards where they are responsible for the completion of tasks.
+## Development Environment Setup
+1. **Local Environment**:
+   - Install WordPress locally using tools like XAMPP, WAMP, MAMP, or Docker.
+   - Clone the theme repository into the `wp-content/themes` directory of your local WordPress installation.
 
-### Discord
-- **Purpose**: Used for all team communications, meetings, and daily stand-ups.
-- **Setup**:
-  - A server has been created specifically for this project.
-  - Channels are organized by topics such as #general, #development, #issues, and #meetings.
+2. **Dependencies**:
+   - Ensure all dependencies are installed via Composer and npm by running `composer install` and `npm install` in the theme directory.
 
-### GitHub
-- **Role**: Serves as our version control system and collaboration platform.
-- **Workflow**:
-  - We use feature branching and pull requests to manage changes.
-  - Every pull request must be reviewed and approved by at least one other team member before merging.
-  - Continuous Integration (CI) is set up to run tests on commits to the `main` branch.
+## Version Control
+- Use Git for version control.
+- Regularly commit changes with meaningful commit messages.
+- Push changes to the remote repository hosted on GitHub.
 
-### Host Stinger
-- **Purpose**: Chosen as our web hosting service due to its reliability and support for PHP applications.
-- **Deployment Process**:
-  - Changes are first pushed to the staging environment on Host Stinger for testing.
-  - Once approved by the QA Lead, changes are deployed to the production environment.
+## Testing
+- Conduct visual and functional testing on your local development environment.
+- Use automated testing tools like PHPUnit for PHP code and Jest for JavaScript if applicable.
 
-## Development Process
+## Deployment Workflow
+1. **Staging Environment**:
+   - Push the latest changes from the Git repository to a staging environment using Git hooks or deployment tools like DeployHQ.
+   - Ensure that the staging environment closely replicates the live environment.
+   - Perform user acceptance testing (UAT) to validate the updates.
 
-1. **Starting the Project**:
-   - The project kick-off involved all team members discussing the scope and objectives.
-   - Initial roles and responsibilities were defined and assigned during this meeting.
+2. **Production Deployment**:
+   - After testing on the staging environment, deploy the updates to the production environment.
+   - Use a CI/CD pipeline to automate the deployment process if possible.
 
-2. **Developing Features**:
-   - Developers write HTML and PHP code in Visual Studio Code.
-   - Code is tested locally before being pushed to the development branch on GitHub.
+3. **Post-Deployment**:
+   - Monitor the live site for any issues.
+   - Prepare to rollback if a critical issue arises post-deployment.
 
-3. **Testing and Review**:
-   - All features undergo thorough testing in the staging environment hosted on Host Stinger.
-   - The QA team reviews and approves the functionality before it moves to production.
+## Project Management
+- Use tools like Jira, Trello, or Asana to manage tasks and milestones.
+- Hold regular meetings to discuss progress and address any issues.
 
-4. **Deployment**:
-   - Final deployment to the live environment is done after all features are validated in staging.
-   - Continuous Deployment practices are utilized to automate the deployment process, reducing manual efforts and errors.
-
-5. **Ongoing Maintenance and Updates**:
-   - The team continues to monitor the website for any issues and gathers feedback for future improvements.
-   - Regular updates are planned and executed to enhance features and address user needs.
-
-## Documentation
-- Documentation is maintained concurrently with development to ensure all processes and updates are recorded accurately. This document will be updated as the project evolves.
-
-## Contact
-- For development-related queries, please contact the project lead via Discord or by email at [devteam@example.com](mailto:devteam@example.com).
-
+Remember, do not include sensitive information such as passwords or API keys in your documentation.
