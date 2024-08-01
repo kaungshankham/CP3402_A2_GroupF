@@ -5,9 +5,9 @@
 ## Project Overview
 This repository houses the code and resources for the Baizonn Learning Center website, designed to increase student enrollment by showcasing the center's Math and Science programs. The site targets parents and high-school students in Singapore, offering a user-friendly experience that highlights the educational quality and opportunities at Baizonn Learning Center.
 
-## Goals
-- **Increase Student Enrollment:** Drive registrations by providing comprehensive information about programs, faculty, and success stories.
-- **Engage Target Audience:** Deliver content that appeals to both parents and students, ensuring it addresses their needs and questions.
+## Goal
+Our primary goal is to complete the redesign and testing of the Baizonn Learning Center website by the end of this semester. This will ensure all new features are operational and the site is fully functional for the start of the enrollment period. The updated site aims to increase student enrollment and streamline the registration process.
+
 
 ## System Requirements
 - **Code Editor:** Visual Studio Code
